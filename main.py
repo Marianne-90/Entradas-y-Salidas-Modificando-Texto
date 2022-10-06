@@ -1,0 +1,6 @@
+f = open('nuevoArchivo.txt','w')
+datos = f.write('archivo creado')
+f.close()
+f = open('nuevoArchivo.txt','a')
+datos = f.write('\n' + 'nueva línea')
+f.close()
